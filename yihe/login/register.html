@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../public/css/public.css" type="text/css">
+	<link rel="stylesheet" href="css/login.css" type="text/css">
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<!-- header -->
+	<div id="logo">
+		<header>
+			<h1>
+				<a href="#">
+					<img src="image/04903816449486228.png" alt="">
+				</a>
+			</h1>
+		</header>
+	</div>
+
+	<!-- register -->
+	<!-- main -->
+	<div id="register">
+		<div class="register clearfix">
+		
+			<!-- 信息栏 -->
+			<div class="register_left">
+				<h4>注册之后您可以</h4>
+				<ul>
+					<li>
+						<dl>
+							<dt></dt>
+							<dd>购买商品支付订单</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt></dt>
+							<dd>申请开店销售商品</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt></dt>
+							<dd>空间好友推送分享</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt></dt>
+							<dd>收藏商品关注店铺</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt></dt>
+							<dd>商品咨询服务评价</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt></dt>
+							<dd>安全交易诚信无忧</dd>
+						</dl>
+					</li>
+				</ul>
+				<section>
+					<h5>如果您是本站用户</h5>
+					<span>我已经注册过账号，立即</span>
+					<a href="#">登录</a>
+					<em>或是</em>
+					<i>找回密码?</i>
+				</section>
+			</div>
+
+			<!-- 注册栏 -->
+			<div class="register_right">
+				<div class="register-title">
+					<h3>用户注册</h3>
+				</div>
+				<div class="register-content">
+					<form action="">
+						<p>
+							<i>3-15位字符，可由中文、英文、数字及“_”、“-”组成<em></em></i>
+							<label for="user" >用户名</label>
+							<input type="text" id="user">
+							<b>用户名必须在3-15个字符之间</b>
+						</p>
+						<p>
+							<i>6-20位字符，可由英文、数字及标点符号组成<em></em></i>
+							<label for="pass">设置密码</label>
+							<input type="password" id="pass">
+							<b>密码长度应在6-20个字符之间</b>
+						</p>
+						<p>
+							<i>请再次输入您的密码<em></em></i>
+							<label for="re-pass">确认密码</label>
+							<input type="password" id="re-pass">
+							<b>两次输入的密码不一致</b>
+						</p>
+						<p>
+							<i>请输入常用的邮箱，将用来找回密码、接受订单通知等<em></em></i>
+							<label for="email">邮箱</label>
+							<input type="text" id="email">
+							<b>这不是一个有效的电子邮箱</b>
+						</p>
+						<p>
+							<i>请输入您的手机号码,由11位数字组成<em></em></i>
+							<label for="number">手机号码</label>
+							<input type="text" id="number">
+							<b></b>
+						</p>
+						<p class="member">
+							<label for="">会员绑定</label>
+							<input type="checkbox" >
+							<span>宜和电视会员绑定</span>
+						</p>
+						<p>
+							<label for="true-name">真实姓名</label>
+							<input type="text" id="true-name">
+						</p>
+						<p>
+							<label for="idcard">证件号码</label>
+							<input type="text" id="idcard">
+							<b>身份证号码格式错误</b>
+						</p>
+						<p class="code">
+							<i>请输入验证码，不区分大小写<em></em></i>
+							<label for="code">验证码</label>
+							<input type="text" id="code">
+							<b>验证码不正确</b>
+							<span></span>
+							<a href="javascript:;">看不清，换一张</a>
+
+						</p>
+						<div class="form-footer">
+							<a href="#" id="submit">立即注册</a>
+							<input type="checkbox">
+							<span>阅读并同意</span>
+							<i>服务协议</i>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- load加载 -->
+	<div class="service"></div>
+	<footer></footer>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/verify.js"></script>
+	<script src="js/cookie.js"></script>
+	<script src="js/register.js"></script>
+	<script>
+		$(function (){
+			$('.service').load('http://localhost:8888/two/project/public/public.html #service');
+			
+			$('footer').load('http://localhost:8888/two/project/public/public.html #footer');
+		})
+	</script>
+</body>
+</html>

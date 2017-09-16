@@ -1,0 +1,219 @@
+
+body{
+	width:1440px;
+	margin-top: 25px;
+}
+
+/*这里 margin-left 会随着页面scrollLeft 而减少为0*/
+
+/*   loginLogo  */
+.loginLogo{
+	margin:0 0 35px 115px;
+}
+.loginLogo h2{
+	height: 60px;
+}
+.loginLogo h2 img{
+	width:270px;
+}
+
+
+/* login_container 登录框  */
+.login_container{
+	min-height:314px;
+}
+/*左图*/
+.login_001{
+	margin:0 65px 0 230px;
+	float: left;
+	height:314px;
+}
+/*右框*/
+.login_form{
+	float: left;
+	width:285px;
+	
+	border:1px solid #d9d9d9;
+	border-top:2px solid #f25546;
+	padding: 8px 0 0 28px;
+}
+.login_form form{
+	width:256px;
+
+}
+/*  欢迎注册*/
+.welcom_register{
+	width:256px;
+	height:45px;
+}
+.welcom_register p{
+	width:256px;
+	height:44px;
+	line-height: 44px;
+	font-size:14px;
+	color:#000;
+	border-bottom: 1px solid #ccc;
+}
+
+.login_box{
+	width:256px;
+	height:220px;
+	margin: 0 auto;
+	margin-top:20px;
+}
+
+/* 账户密码登录*/
+.account_login{
+	min-height:220px;
+}
+.tip{
+	width:244px ;
+	height: 22px;
+	font-size: 12px;
+	color:red;
+	background: #fff;
+	padding-left: 10px;
+	line-height: 22px;
+	border:1px solid red;
+	margin-bottom:10px; 
+	display: none;
+}
+.input_group{
+	width:254px;
+	height:34px;
+	border:1px solid #ccc;
+	border-radius: 6px;
+	margin-bottom:12px;
+}
+.input_group label{
+	float: left;
+	width:72px;
+	height:34px;
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+	line-height: 34px;
+}
+/* 账号密码输入框*/
+.input_group input{
+	float: left;
+	margin-top:8px;
+	width:158px;
+	height:18px;
+	border:none;
+	font-size: 12px;
+	color:#929292;
+	border-left: 1px solid #ccc;
+	padding-left: 23px;
+	outline: none;
+}
+.checkcodeDiv{
+	position: relative;
+}
+#getCode{
+	display: block;
+	width:80px;
+	height:36px;
+	background:#ff9562;
+	font-size: 12px;
+	color:#fff;
+	text-align: center;
+	line-height: 36px;
+	position: absolute;
+	right: 0;top:0;
+}
+.checkcodeDiv span{
+	width:80px;
+	height:36px;
+	background:#666;
+	position: absolute;
+	right: 0;top:0;
+	opacity: 0.3;
+	display: none;
+}
+
+/* 注册按钮 */
+.login_btn{
+	display: block;
+	width:256px;
+	height: 36px;
+	font-size:16px;
+	color:#fff;
+	line-height:36px;
+	text-align: center;
+	background:#f25546;
+	border-radius: 4px;
+}
+.login_btn:hover{
+	background:#ad0404;
+}
+/*快速登录按钮 和 注册*/
+.fast_login{
+	margin-top:20px;
+}
+.fast_login p{
+	
+}
+.fast_login p span{
+	float: left;
+	font-size:12px;
+	color:#666;
+}
+/*  微信图标 */
+.wechat_btn{
+	float: left;
+	display: block;
+	width:21px;
+	height:16px;
+	background: url("../images/register/wechat1.png");
+	margin:  0 11px 0 17px;
+}
+/*  qq图标 */
+.qq_btn{
+	float: left;
+	display: block;
+	width:18px;
+	height:18px;
+	background: url("../images/register/qq1.png");
+}
+/*去注册 按钮*/
+.register_btn{
+	float: right;
+	font-size: 12px;
+	color:#f25546;
+}
+
+
+/*footer*/
+.login_footer{
+	margin-top: 34px;
+}
+.login_footer p{
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px!important;
+	color:#333;
+	text-align: center;
+	-webkit-text-size-adjust:none;
+}
+.login_footer div{
+	width:364px;
+	margin:0 auto;
+	margin-top:14px;
+}
+.login_footer a{
+	float: left;
+	font-size: 12px;
+	color:#333;
+	font-weight: 900;
+	margin-right: 14px;
+
+
+}
+
+.login_footer a:nth-child(2){
+	color:#2e8ae5;
+	font-weight: 100;
+	margin-right: 0;
+	text-decoration:underline;
+}

@@ -1,0 +1,75 @@
+{
+	"options":[
+		{
+			"con":[
+				{
+					"src":"http://localhost/gulp/myProject/images/pictures/p2.jpg",
+					"title":"Joyoung/九阳 DJ13R-G",
+					"price":"599",
+					"discount":"6.7"	
+				},
+				{
+					"src":"http://localhost/gulp/myProject/images/pictures/p3.jpg",
+					"title":"【不参加门店活动】Rob",
+					"price":"6190",
+					"discount":"7.7"	
+				},
+				{
+					"src":"http://localhost/gulp/myProject/images/pictures/p4.jpg",
+					"title":"Rob am/老板灶具 JZ(Y ",
+					"price":"2590",
+					"discount":"7.4"	
+				},
+				{
+					"src":"http://localhost/gulp/myProject/images/pictures/p5.jpg",
+					"title":"gomon/光芒热水器 GD8030M",
+					"price":"1890",
+					"discount":"9.5"	
+				},
+				{
+					"src":"http://localhost/gulp/myProject/images/pictures/p6.jpg",
+					"title":"【厨房套餐】老板烟灶 CX",
+					"price":"5999",
+					"discount":"8.8"	
+				}
+
+			]
+		},
+		{
+			"con":[
+				{
+					"src":"http://localhost/gulp/myProject/images/pictures/p8.jpg",
+					"title":"Joyoung/九阳 DJ13R-G",
+					"price":"599",
+					"discount":"6.7"	
+				},
+				{
+					"src":"http://localhost/gulp/myProject/images/pictures/p9.jpg",
+					"title":"【不参加门店活动】Rob",
+					"price":"6190",
+					"discount":"7.7"	
+				},
+				{
+					"src":"http://localhost/gulp/myProject/images/pictures/p10.jpg",
+					"title":"Rob am/老板灶具 JZ(Y ",
+					"price":"2590",
+					"discount":"7.4"	
+				},
+				{
+					"src":"http://localhost/gulp/myProject/images/pictures/p11.jpg",
+					"title":"gomon/光芒热水器 GD8030M",
+					"price":"1890",
+					"discount":"9.5"	
+				},
+				{
+					"src":"http://localhost/gulp/myProject/images/pictures/p12.jpg",
+					"title":"【厨房套餐】老板烟灶 CX",
+					"price":"5999",
+					"discount":"8.8"	
+				}
+
+			]
+		}
+
+	]
+}

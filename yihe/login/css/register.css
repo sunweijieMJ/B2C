@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.register{width: 1100px;margin:0 auto;padding-left: 100px;margin-bottom: 50px;}
+
+
+/*************************.register-left********************************8*/
+
+.register .register_left{width: 420px;float: left;padding-left: 80px;}
+.register .register_left h4{width: 400px;height: 50px;font-size: 18px;color: #555;font-weight: 900;line-height: 50px;}
+.register .register_left ul{width: 400px;height: 210px;border-bottom: 1px dotted #e7e7e7;}
+.register .register_left ul li{width: 190px;height: 50px;float: left;padding-left: 10px;margin-bottom: 15px;}
+.register .register_left ul li dl dt{background: url(../image/login.png) no-repeat -303px -47px;width: 50px;height: 50px;float: left;}
+.register .register_left ul li:nth-child(2) dl dt{background-position: -256px 0px;}
+.register .register_left ul li:nth-child(3) dl dt{background-position: -351px 0px;}
+.register .register_left ul li:nth-child(4) dl dt{background-position: -304px 0px;}
+.register .register_left ul li:nth-child(5) dl dt{background-position: -352px -47px;}
+.register .register_left ul li:nth-child(6) dl dt{background-position: -254px -47px;}
+.register .register_left ul li dl dd{font-size: 12px;color: #626a73;line-height: 50px;float: left;padding-left: 20px;}
+.register .register_left section{width: 500px;height: 100px;padding-top: 20px;}
+.register .register_left section h5{font-size: 18px;color: #555;font-weight: 900;margin-bottom: 10px;}
+.register .register_left section a{float: left;width: 50px;height: 26px;background: url(../image/login.png) no-repeat -98px -56px;color: #555;font-size: 12px;text-align: center;line-height: 26px;margin: 0 5px;}
+.register .register_left section span{font-size: 12px;color: #626a73;float: left;margin-top: 5px;}
+.register .register_left section i{font-size: 12px;font-style: normal;font-weight: 900;color: #06c;float: left;margin-top: 5px;}
+.register .register_left section em{font-size: 12px;color: #626a73;font-style: normal;float: left;margin-top: 5px;margin-right: 8px;}
+
+
+/*************************.register-right********************************8*/
+
+.register .register_right{width: 400px;border: 1px solid #d8d8d8;float: left;background: #f9f9f9;}
+.register .register_right .register-title{width: 356px;height: 17px;padding: 15px}
+.register .register_right .register-title h3{font-size: 16px;color: #555;font-weight: 900;line-height: 16px;}
+.register .register_right .register-content p{width: 298px;height: 34px;margin-left: 20px;padding: 10px 30px;position: relative;}
+.register .register_right .register-content p label{font-size: 12px;color: #777;text-align: center;line-height: 28px;float: left;width: 50px;height: 28px;margin-right: 10px;}
+.register .register_right .register-content p input{width: 221px;height: 24px;border:1px solid #bbb;outline: none;float: left;font-size: 12px;padding-left: 5px;}
+.register .register_right .register-content .member{height: 14px;}
+.register .register_right .register-content .member label{line-height: 12px;}
+.register .register_right .register-content .code input{width: 51px;height: 24px;}
+.register .register_right .register-content .code span{float: left;width: 75px;height: 26px;background: #e0d5df;margin-right: 5px;font-size: 20px;line-height: 26px;color: blue;text-align: center;}
+.register .register_right .register-content .code a{font-style: normal;font-size: 12px;color: #999;cursor: pointer;}
+.register .register_right .register-content .code a:hover{text-decoration: underline;}
+.register .register_right .register-content p input[type=checkbox]{width: 11px;height: 11px;}
+.register .register_right .register-content p span{font-size: 12px;color: #777;line-height: 12px;float: left;margin-left: 5px;}
+.register .register_right .register-content .form-footer{width: 260px;height: 40px;margin-left:110px;}
+.register .register_right .register-content .form-footer a{float: left;width: 98px;height: 32px;background: url(../image/login.png) no-repeat 0px -57px;font-size: 14px;color: #fff;text-align: center;line-height: 32px;}
+.register .register_right .register-content .form-footer input{float: left;margin: 10px 10px 0;}
+.register .register_right .register-content .form-footer span{font-size: 12px;color: #666;float: left;margin-top: 10px;}
+.register .register_right .register-content .form-footer i{font-size: 12px;font-style: normal;color: #c53801;font-weight: 900;float: left;margin-top: 10px;}
+
+
+/************************************************************************/
+.register .register_right .register-content form>p>i{position: absolute;background: #fff9c9;border:1px solid #c7bf93;text-align: center;padding: 2px;font-style: normal;color: #000;font-size: 12px;border-radius: 5px;left: 30px;top: -20px;opacity: 0;display: none;}
+.register .register_right .register-content form>p>i>em{position: absolute;left: 100px;bottom:-5px;width: 9px;height: 6px;background: #ccc url(../image/form_i.png) no-repeat;}
+.register .register_right .register-content form>p>b{position: absolute;color: red;text-align: center;line-height: 12px;font-size: 12px;left: 90px;top: 40px;font-weight: 100;display: none;}

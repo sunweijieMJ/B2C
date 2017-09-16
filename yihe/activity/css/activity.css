@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*************************************************************/
+.banner-top,#goodsList,#online{width: 1423px;margin: 0 auto;}
+
+/***************************banner*********************************/
+
+#banner{height: 771px;}
+.banner-top{height:373px;background:url(https://image.ehmall.com.cn/cms/special/05514689532866428.jpg) no-repeat top center;}
+.banner-bottom{height:398px;background:url(https://image.ehmall.com.cn/cms/special/05514689533150297.jpg) no-repeat top center;}
+
+
+/******************************goodsList*************************************/
+
+#goodsList{height: 4747px;}
+.goodsList-con{height: 4747px;width: 1200px;margin: 0 auto;}
+.goodsList-con ul{width: 1100px;height: 4433px;padding: 30px 50px;}
+.goodsList-con ul li{width: 263px;height: 393px;background: #fff;float: left;margin: 0 0 10px 10px;}
+.goodsList-con ul li dl{width: 261px;height: 391px;border:1px solid #ddd;}
+.goodsList-con ul li dl dt{width: 261px;height: 261px;}
+.goodsList-con ul li dl dt a img{width: 261px;height: 261px;}
+.goodsList-con ul li dl dd{width: 241px;height: 56px;padding: 5px 10px;}
+.goodsList-con ul li dl dd:last-of-type{background: #f2eeef;padding-top: 10px;height: 51px;}
+.goodsList-con ul li dl dd p{font-size: 12px;color: #333;float: left;}
+.goodsList-con ul li dl dd p span{font-size: 12px;color: #444;}
+.goodsList-con ul li dl dd .introduce{height: 40px;overflow: hidden;}
+.goodsList-con ul li dl dd .introduce a{font-size: 14px;color: #333;}
+.goodsList-con ul li dl dd:last-of-type p:first-child span:nth-child(1){color: #e40011;font-size: 14px;font-weight: 900;}
+.goodsList-con ul li dl dd .price{font-size: 24px;color: #e40011;font-weight: 900;}
+.goodsList-con ul li dl dd .market{display: block;text-decoration: line-through;}
+.goodsList-con ul li dl dd .go{float: right;padding:  5px 10px;}
+.goodsList-con ul li dl dd .go a{float: left;width: 68px;height: 36px;background: #fb5758;text-align: center;line-height: 36px;font-size: 20px;}
+.goodsList-con  img{width: 1200px;height: 254px;}
+
+
+/*********************************online********************************/
+
+#online{height: 231px;}
+.online-con{width:1200px;height: 231px;margin: 0 auto;position: relative;}
+.online-con h2 {padding-left: 320px;}
+.online-con .rotationli{width: 1200px;height: 131px;padding: 30px 0;position: relative;overflow: hidden;}
+.online-con .rotationli .ulBox{position: absolute;width: 1200px;height: 130px;}
+.online-con>a{position: absolute;width: 40px;height: 44px;background: url(../image/pronext.png) no-repeat;left: -50px;top: 110px;}
+.online-con>a:nth-of-type(2){left: 1210px;background-position: -40px 0px;}
+.online-con .rotationli ul {position: absolute;width: 3600px;height: 130px;}
+.online-con .rotationli ul li{width: 290px;height: 130px;margin-left: 10px;float: left;}

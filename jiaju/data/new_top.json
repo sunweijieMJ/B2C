@@ -1,0 +1,184 @@
+{
+	"classify":[
+		{
+			"name":"0",
+			"options":[
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f1.png",
+					"intro":"定制+模块化 破解家居产品"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f2.png",
+					"intro":"智能电视升级 2017或成OTT商业化元年"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f3.png",
+					"intro":"卫浴洁具市场投诉的焦点问题"
+				}
+			],
+			"news":[
+				"空调租赁成家电消费新模式 但也需谨慎",
+				"空调销售进入高峰期 厂商圈地旺季市场",
+				"小家电抢食618市场 电磁炉往日风光不在",
+				"智能家居已成为厨卫行业的主旋律",
+				"智能家电2017：理性烦死 有诗也有远方",
+				"整体家居行业发展增速放缓成为业内共识",
+				"门窗产品利润压缩严峻 细节服务为企业增值",
+				"洗衣机冰箱空调也共享 实火还是虚火"
+			]
+		},
+		{
+			"name":"1",
+			"options":[
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f4.png",
+					"intro":"中国原生态环保床垫 cbd床垫怎么样"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f5.png",
+					"intro":"智能让生活更方便 自动晾衣架的尺寸有哪些"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f6.png",
+					"intro":"让晾衣变得更简单便捷 适合简约风格家居"
+				}
+			],
+			"news":[
+				"伸缩晾衣架哪种好 六大选购技巧",
+				"家务智能化 电动晾衣架价格多少",
+				"盼盼好家居 盼盼晾衣架价格多少",
+				"节省空间 宜家折叠餐桌尺寸是多少",
+				"优质家居必备 好太太晾衣架价格是多少",
+				"现代家居风格首选 西餐桌尺寸是多少",
+				"好生活选好太太 好太太电动晾衣架价格是多少",
+				"中国风家居首选 实木圆餐桌价格是多少"
+			]	
+		},
+		{
+			"name":"2",
+			"options":[
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f7.png",
+					"intro":"创新型工具 自动晾衣架好吗"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f8.png",
+					"intro":"小面积房屋首选 折叠餐桌好不好"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f9.png",
+					"intro":"玻璃餐桌好不好 适合简约风格家居"
+				}
+			],
+			"news":[
+				"大理石餐桌好吗 使用寿命长",
+				"窗帘好还是百叶窗好 各有各优势",
+				"塑料花盆好不好 物美价廉",
+				"市场畅销品 百叶窗好吗",
+				"天然木材 防腐木花盆好吗",
+				"节能省时小助手 万家乐小厨宝好吗",
+				"适合不同位置 卷帘和百叶窗哪个好",
+				"符合国家标准 多乐士涂料好不好"
+			]
+		},
+		{
+			"name":"3",
+			"options":[
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f10.png",
+					"intro":"小面积家庭适用 折叠晾衣架什么款式好"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f11.png",
+					"intro":"让家务更简单 生姜晾衣架十大排名"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/f12.png",
+					"intro":"坚固耐用 实木餐桌椅品牌有哪些"
+				}
+			],
+			"news":[
+				"家居必备家具 餐桌椅品牌有哪些",
+				"灯饰最佳品牌 水晶灯具品牌排行",
+				"安全舒适最重要 婴儿床上用品品牌【】排行榜",
+				"户外探险者必备 户外照明灯具品牌有哪些",
+				"质量有保证 板材家居十大品牌排行榜",
+				"简单的贵气感 美式灯具品牌有哪些",
+				"时尚之都的灵感 意大利灯具品牌介绍",
+				"安全防护 防爆灯具品牌有哪些"
+			]
+		}
+
+	],
+	"report":[
+		{
+			"name":"0",
+			"options":[
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/g1.jpg",
+					"title":"一号家居迎春家装庆典 百万豪礼感恩回馈",
+					"intro":"想到十几天后的春节，你想好买什么礼物回家探亲了吗？为了回馈广大业主，一号",
+					"from":"一号家居网"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/g2.jpg",
+					"title":"1212家装狂享惠 一号家居网",
+					"intro":"延续11.11购物狂欢的传统，12.12期间，一号家居网退出了“家居狂享会”折扣大",
+					"from":"一号家居网商城"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/g3.jpg",
+					"title":"一号家居网爆款商品：家居家电",
+					"intro":"11.11到来，琳琅满目商品之中未必能够一眼相中心头好，但有一个地方，捧着热",
+					"from":"家具 | 家电"
+				}
+			]
+		},
+		{
+			"name":"1",
+			"options":[
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/g4.jpg",
+					"title":"环保废物利用 自制塑料花盆方法",
+					"intro":"花盆的种类有很多，但每一种材质的花盆都有消费者喜欢。其实花盆的材质对植物的",
+					"from":"花盆"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/g5.jpg",
+					"title":"花盆种菜技巧有哪些 选对种植",
+					"intro":"随着人们对家居环境要求的提升，家庭装饰物种类越来越多了，连花卉这类的植物",
+					"from":"花盆"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/g6.jpg",
+					"title":"省点寿命更长 led灯具能效",
+					"intro":"led灯具是一种新型的照明灯具，在房屋中不单单可用于照明的作用，还可以制作",
+					"from":"led灯具 | 灯具"
+				}
+			]
+		},
+		{
+			"name":"2",
+			"options":[
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/g7.jpg",
+					"title":"独享挚爱 打造浪漫满屋",
+					"intro":"白色情人节即将到来，想好准备什么惊喜给你心爱的ta了吗，爱ta就给ta一个温馨",
+					"from":"一号家居网"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/g8.jpg",
+					"title":"选购精美儿童床 这个六一给你",
+					"intro":"儿童房间最重要的就是儿童床了，在这个属于孩子的换欢乐节日，家长不妨送孩子一",
+					"from":"一号家居网商城"
+				},
+				{
+					"url":"http://localhost/gulp/myProject/images/pictures/g9.jpg",
+					"title":"新古典客厅家具搭配 古典色调",
+					"intro":"现代生活中，回味古典是文化的影响，古色故想总能在忙碌中宁静，新古典客",
+					"from":"客厅家具 | 古典家具 |新古典家具"
+				}
+			]
+		}
+	]
+}

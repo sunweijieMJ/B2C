@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../public/css/public.css" type="text/css">
+	<link rel="stylesheet" href="css/login.css" type="text/css">
+</head>
+<body>
+	<!-- header -->
+	<div id="logo">
+		<header>
+			<h1>
+				<a href="#">
+					<img src="image/04903816449486228.png" alt="">
+				</a>
+			</h1>
+		</header>
+	</div>
+
+	<!-- main -->
+	<div id="login">
+		<div class="login">
+			<div class="login_left">
+				<img src="image/4.jpg" alt="">
+			</div>
+			<div class="login_right">
+				<div class="login-title">
+					<h3>用户登录</h3>
+				</div>
+				<div class="login-content">
+					<form action="">
+						<p>
+							<label for="user" >用户名</label>
+							<input type="text" placeholder="用户名/已验证邮箱/已验证手机" id="user">
+						</p>
+						<p>
+							<label for="pass">密码</label>
+							<input type="password" placeholder="密码" id="pass">
+						</p>
+						<p class="code">
+							<label for="code">验证码</label>
+							<input type="text" id="code">
+							<span></span>
+							<a href="javascript:;">看不清，换一张</a>
+						</p>
+						<p>
+							<input type="checkbox">
+							<label for="">自动登录</label>
+							<span>请勿在公共场合勾选此项</span>
+						</p>
+						<p>
+							<input type="button">
+							<a href="#">忘记密码？</a>
+						</p>
+						<p>
+							<span>还不是本站会员？立即</span>
+							<a href="#" id="register">注册</a>
+						</p>
+						<div class="form-footer">
+							<p>您可以用合作伙伴账号登录</p>
+							<p>
+								<a href="#"></a>
+								<a href="#"></a>
+							</p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- service -->
+	<div class="service"></div>
+	<!-- footer -->
+	<footer></footer>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/cookie.js"></script>
+	<script src="js/login.js"></script>
+	<script>
+		$(function (){
+			$('.service').load('http://localhost:8888/two/project/public/public.html #service');
+			
+			$('footer').load('http://localhost:8888/two/project/public/public.html #footer');
+		})
+	</script>
+</body>
+</html>

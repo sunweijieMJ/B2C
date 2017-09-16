@@ -1,0 +1,16 @@
+{
+	"options":[
+		{
+			"id":"0",
+			"src":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170606795.jpg_110x110.jpg",
+			"price":"16800.00",
+			"intro":"欧式新古典实木床"
+		},
+		{
+			"id":"1",
+			"src":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170604223.jpg_110x110.jpg",
+			"price":"6800.00",
+			"intro":"中式红木床"
+		}
+	]
+}

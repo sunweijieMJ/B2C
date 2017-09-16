@@ -1,0 +1,24 @@
+{
+	"data":[
+		{
+			"name":"banner1",
+			"src":"http://localhost/gulp/myProject/images/register/banner1.jpg"
+		},
+		{
+			"name":"banner2",
+			"src":"http://localhost/gulp/myProject/images/register/banner2.jpg"
+		},
+		{
+			"name":"banner3",
+			"src":"http://localhost/gulp/myProject/images/register/banner3.jpg"
+		},
+		{
+			"name":"banner4",
+			"src":"http://localhost/gulp/myProject/images/register/banner4.jpg"
+		},
+		{
+			"name":"banner5",
+			"src":"http://localhost/gulp/myProject/images/register/banner5.jpg"
+		}
+	]
+}

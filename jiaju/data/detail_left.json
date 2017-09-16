@@ -1,0 +1,48 @@
+{
+	"images":[
+		{
+			"small":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170550245.jpg_110x110.jpg",
+			"big":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170550245.jpg_400x400.jpg",
+			"largest":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170550245.jpg_750x750.jpg"
+		},
+		{
+			"small":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170558997.jpg_110x110.jpg",
+			"big":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170558997.jpg_400x400.jpg",
+			"largest":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170558997.jpg_750x750.jpg"
+		},
+		{
+			"small":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170601619.jpg_110x110.jpg",
+			"big":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170601619.jpg_400x400.jpg",
+			"largest":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170601619.jpg_750x750.jpg"
+		},
+		{
+			"small":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170604223.jpg_110x110.jpg",
+			"big":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170604223.jpg_400x400.jpg",
+			"largest":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170604223.jpg_750x750.jpg"
+		},
+		{
+			"small":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170606795.jpg_110x110.jpg",
+			"big":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170606795.jpg_400x400.jpg",
+			"largest":"http://img125.yhjj.com/ShopImg/103/134/2016/06/15/170606795.jpg_750x750.jpg"
+		}
+	],
+	"introduce":{
+		"title":{
+			"activeName":"【年终大促】",
+			"name":"欧式新古典实木雕花双人布艺床1.8m大床 珍珠白公主双人床 TYX605-2#"
+		},
+		"content":"年中大促，品质家装欢乐送！活动期间，装修狂享五重豪礼，家电全场满额直降，建材低价抢购秒杀，家具爆款限时优惠。",
+		"price":"￥16800.00",
+		"dealed":"203",
+		"code":"A-XXLH-WS-C-TYX605-2-1.8",
+		"structure":"床板床",
+		"size":[
+			"1800mm*2000mm","2000mm*2200mm","2200mm*2500mm"
+		]
+
+	},
+	"closely":[
+		"梳妆台","床尾凳","衣帽架","穿衣镜","衣柜","床头柜","床","梳妆凳","床垫"
+	]
+		
+}

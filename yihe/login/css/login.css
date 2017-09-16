@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*公共样式*/
+header,.login{
+	width: 1423px;margin:0 auto;
+}
+
+/*logo*/
+header{height: 100px;overflow: hidden;}
+header h1 a{width: 191px;height: 60px;display: block;}
+header h1 img{margin:25px 0 0 209px;}
+
+/*login*/
+.login{height: 490px;}
+.login .login_left{width: 450px;height: 300px;margin-left: 280px;float: left;}
+.login .login_right{width: 400px;height: 488px;border: 1px solid #d8d8d8;float: left;background: #f9f9f9;}
+
+/*****************登录注册*********************/
+.login .login_right .login-title{width: 356px;height: 17px;padding: 22px}
+.login .login_right .login-title h3{font-size: 16px;color: #555;font-weight: 900;line-height: 16px;}
+.login .login_right .login-content p{width: 298px;height: 34px;background: #f9f9f9;margin-left: 20px;padding: 10px 30px;}
+.login .login_right .login-content p label{font-size: 12px;color: #777;text-align: center;line-height: 28px;float: left;width: 50px;height: 28px;}
+.login .login_right .login-content p input{width: 221px;height: 24px;border:1px solid #bbb;outline: none;float: left;font-size: 12px;padding-left: 5px;}
+.login .login_right .login-content .code input{width: 51px;height: 24px;}
+.login .login_right .login-content .code span{float: left;width: 90px;height: 26px;background: #e0d5df;margin-right: 5px;font-size: 20px;line-height: 26px;color: blue;text-align: center;}
+.login .login_right .login-content .code a{font-style: normal;font-size: 12px;color: #999;cursor: pointer;}
+.login .login_right .login-content .code a:hover{text-decoration: underline;}
+.login .login_right .login-content p input[type=checkbox]{width: 11px;height: 11px;}
+.login .login_right .login-content p span{font-size: 12px;color: #f00;line-height: 16px;float: left;margin-left: 5px;}
+.login .login_right .login-content p:nth-of-type(4){padding-left: 75px;width: 253px;}
+.login .login_right .login-content p:nth-of-type(4) label{line-height: 16px;}
+.login .login_right .login-content p input[type=button]{width: 90px;height: 29px;background: url(../image/login.png) no-repeat;border:0;cursor: pointer;}
+.login .login_right .login-content p:nth-of-type(5){padding:0 0 0 80px;width: 278px;}
+.login .login_right .login-content p:nth-of-type(5) a{font-size: 12px;color: #06c;font-weight: 900;margin-left: 10px;}
+.login .login_right .login-content p:nth-of-type(6){padding:10px 0 10px 80px;width: 278px;height: 24px;border-bottom: 1px dotted #d8d8d8;}
+.login .login_right .login-content p:nth-of-type(6) span{font-size: 12px;color: #666;float: left;margin-top: 5px;margin-right: 5px;}
+.login .login_right .login-content p:nth-of-type(6) a{float: left;width: 48px;height: 24px;font-size: 12px;color: #666;text-align: center;line-height: 24px;border-radius: 5px;font-weight: 900;background: url(../image/login.png) no-repeat -99px -57px;border:1px solid #c1c1c1;}
+.login .login_right .login-content .form-footer{width: 369px;height: 90px;}
+.login .login_right .login-content .form-footer p:first-child{font-size: 12px;color: #666;text-align: center;line-height: 12px;padding-top: 14px;height: 12px;}
+.login .login_right .login-content .form-footer a{float: left;width: 88px;height: 28px;margin-right: 10px;background: #f2f2f2;border-radius: 5px;text-align: center;line-height: 26px;font-size: 12px;color: #f2f2f2;transition: 0.5s;}
+.login .login_right .login-content .form-footer p:last-child{padding-left: 90px;width: 218px;}
+.login .login_right .login-content .form-footer p:last-child a:first-child{background: url(../image/login.png) no-repeat -88px 0px;width: 79px;}
+.login .login_right .login-content .form-footer p:last-child a:first-child:hover{background-position: -88px -28px;}
+.login .login_right .login-content .form-footer p:last-child a:last-child{background: url(../image/login.png) no-repeat -166px 0px;}
+.login .login_right .login-content .form-footer p:last-child a:last-child:hover{background-position: -166px -28px;}

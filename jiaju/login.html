@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css" type="text/css">
+	<link rel="stylesheet" href="css/login.css" type="text/css">
+</head>
+<body>
+	<!-- 注册页面-->
+
+	<!-- loginLogo-->
+	<div class="loginLogo">
+		<h2>
+			<img src="images/register/newlogo.png" alt="">
+		</h2>
+	</div>
+
+	<!-- login_container -->
+	<div class="login_container clearfix">
+		<div class="login_001">
+			<a href="#">
+				<img src="images/register/big.jpg" alt="">
+			</a>
+		</div>
+		<div class="login_form">
+			<form action="">
+				<div class="login_nav">
+					<a href="javascript:;" class="current_nav">微信登录</a>
+					<a href="javascript:;" class="">账号登录</a>
+				</div>
+				<ul class="login_box">
+					<li class="wechat_login">
+						<div class="wechat_erweima">
+							<img src="images/register/yihaojia.gif" alt="">
+						</div>
+						<div class="wetchat_wenhao">
+							<a href="#">微信扫码 快速登录</a>
+							<a href="#" class="wenhao"></a>
+							<div class="hide_wenhao"></div>
+						</div>
+					</li>
+					<li class="account_login">
+						<div class="tip">11111</div>
+						<div class="input_group">
+							<label for="username">账号</label>
+							<input type="text" placeholder="手机号码/邮箱" id="username" maxlength="11">
+						</div>
+						<div class="tip">22222</div>
+						<div class="input_group">
+							<label for="password">密码</label>
+							
+							<input type="password" placeholder="密码" id="password" maxlength="18">
+							<span class="eyeBtn" name="0"></span>
+						</div>
+						<div class="input_more">
+							 <input type="checkbox" id="autoLogin">
+							 <label for="autoLogin">自动登录</label>
+							 <a href="#" class="forgot_pass">忘记密码?</a>
+						</div>
+						<a href="#" class="login_btn">登录</a>
+						<div class="fast_login">
+							<p>
+								<span>快速登录:</span>
+								<a href="#" class="wechat_btn"></a>
+								<a href="#" class="qq_btn"></a>
+								
+							</p>
+							<a href="http://localhost/myProject/register.html" class="register_btn">免费注册 ></a>
+						</div>
+					</li>
+				</ul>
+			</form>
+			
+		</div>
+	</div>
+
+	<!-- login_footer -->
+	<div class="login_footer">
+		<p>Copyright © 2013-2022 一号家居网（www.yihaojiaju.com）—在线家装领导者 All Rights Reserved</p>
+		<div class="clearfix">
+			<a href="#">装房子 买家具加点 就上一号家居网 - YES!</a>
+			<a href="#">苏ICP备14018447号-1</a>
+		</div>
+	
+	</div>
+
+	<script src="libs/require.js"></script>
+	<script src="libs/jquery.js"></script>
+	<script src="libs/cookie.js"></script>
+	<script>
+		requirejs(["module/login"],function(res){
+	
+			 res.init();
+		});
+	</script>
+</body>
+</html>

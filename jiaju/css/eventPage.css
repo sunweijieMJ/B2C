@@ -1,0 +1,44 @@
+
+.publicity{
+	width: 100%;
+	height: 80px;
+	background: #d6085a;
+	
+}
+/*  黄 #fe8417   红#d6085a */
+.publickCon{
+	width: 1210px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.publickCon a{
+	width: 1210px;
+	height: 80px;
+	position: absolute;
+}
+.pub_one{
+	background: url(../images/eventImages/a1.jpg) no-repeat;
+	left: 0;
+	top: 0;
+}
+.pub_two{
+	background: url(../images/eventImages/a2.jpg) no-repeat;
+	left: 0;
+	top: 80px;
+
+}
+.publickCon .closeBtn{
+	width:20px;
+	height: 20px;
+	font-size: 20px;
+	line-height: 15px;
+	background: #333;
+	text-align: center;
+	opacity: 0.5;
+	color: #fff;
+	right: 30px;
+	top: 14px;
+	z-index: 2;
+}

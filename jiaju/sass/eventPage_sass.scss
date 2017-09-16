@@ -1,0 +1,738 @@
+/**  左右剧中：  @include marginCenter; **/
+@mixin marginCenter{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*兼容透明度设置    @include opacity(1);   */ 
+@mixin opacity($opacity) {  
+    opacity: $opacity;  
+    $opacity-ie: $opacity * 100;  
+    filter: alpha(opacity=$opacity-ie); //IE8  
+}  
+
+/* 兼容最小高度设置  @include min-height(300px);*/
+@mixin min-height($height){ 
+	min-height: $height; 
+	height: auto !important;
+	_height: $height; 
+
+}
+
+
+.nav{
+	display:none
+}
+
+.publicity{
+	width: 100%;
+	height:80px;
+	.publickCon{
+		width: 100%;
+		height: 80px;
+		overflow: hidden;
+		background: #d6085a;
+		position: relative;
+		.pub{
+			width:100%;
+			height:80px;
+			position: absolute;
+			a{
+				display:  block;
+				width: 1210px;
+				height: 80px;
+				@include marginCenter;
+			}
+		}
+		.publicBox_one{
+			background:#d6085a;
+			left:0;
+			top:0;
+			.pub_one{
+				background:url(../images/eventImages/a1.jpg) no-repeat;
+			}
+		}
+		.publicBox_two{
+			background:#fe8417;
+			left:0;
+			top:80px;
+			.pub_two{
+				background:#fe8417 url(../images/eventImages/a2.jpg) no-repeat;
+			}
+		}
+		.publicBox_three{
+			width:1210px;
+			height:80px;
+			@include marginCenter;
+			position: relative;
+			.closeBtn{
+				width:20px;
+				height: 20px;
+				font-size: 20px;
+				line-height: 15px;
+				background: #333;
+				text-align: center;
+				opacity: 0.5;
+				color: #fff;
+				position: absolute;
+				right: 30px;
+				top: 14px;
+				z-index: 11;
+			}
+			
+		}
+	}
+}
+$navRed:#cc0033;
+.active_nav{
+	width:100%;
+	height:40px;
+	background:$navRed;
+	.ac_nav_con{
+		width:1210px;
+		height:40px;
+		margin:0 auto;
+		position: relative;
+		
+		ul{
+			height:40px;
+			li{
+				float:left;
+				height:40px;
+				position: relative;
+				a{
+					display:block;
+					padding-left:30px;
+					padding-right:30px;
+					font-size:16px;
+					height:40px;
+					line-height:40px;
+					color:#fff;
+
+				}
+				em{
+					display: block;
+					width:11px;
+					height:11px;
+					background:url(../images/eventImages/header-arrow2.png) no-repeat 0 -4px;
+					position: absolute;
+					right:7px;
+					top:19px;
+				}
+				.li_hideDiv{
+					width:100%;
+					a{
+				
+						width:100%;
+						height:40px;
+						font-size:16px;
+						background:#fff;
+						color:#999;
+						text-align:center;
+						line-height:40px;
+						padding:0;
+					}
+					a:hover{
+						background:$navRed;
+						color:#fff;
+					}
+					position: absolute;
+					left:0;
+					top:40px;
+					z-index:10;
+					display:none;
+				}
+				
+			}
+			li:hover{
+				background:#62031b;
+				em{
+					background:url(../images/eventImages/header-arrow2.png) no-repeat 0 -42px;
+				}
+				div{
+					display:block;
+				}
+			}
+		}
+		.phone_nav{
+			width:180px;
+			height:51px;
+			position: absolute;
+			right:0;
+			top:-11px;
+			margin-left:0;
+			background: url(../images/eventImages/phone-icon.png) no-repeat;
+			.erweima_nav{
+				left:0px;
+				top:51px;
+			}
+		}
+	}
+}
+/* banner    */
+.banner{
+	width:100%;
+	background:#9a082c;
+	.topBanner{
+		width:100%;
+		height:600px;
+		overflow:hidden;
+		position: relative;
+		.imgBanner{
+			position: absolute;
+			left:50%;
+			margin-left:-960px;
+		}
+	}
+	.navBanner{
+		width:1210px;
+		height:70px;
+		@include marginCenter;
+		background:url(../images/eventImages/a5.jpg) no-repeat;
+		a{
+			float:left;
+			width:174px;
+			height:56px;
+			margin:10px 24px 0 39px;
+			background:url(../images/eventImages/a6.jpg) no-repeat;
+			span{
+				display: block;
+				width:174px;
+				height:56px;
+				line-height:56px;
+				font-size:22px;
+				color:#fff;
+				text-align:center;
+			}
+		}
+		a:hover{
+			span{
+				color:yellow;
+			}
+		
+		}
+		a:nth-child(2){
+			margin-left:45px;
+		}
+	}
+	.fowardBanner{
+		width:1200px;
+		height:206px;
+		background:url(../images/eventImages/a8.jpg) no-repeat;
+		@include marginCenter;
+	}
+	.freePlace{
+		width:1200px;
+		height:394px;
+		background:url(../images/eventImages/a9.jpg) no-repeat;
+		@include marginCenter;
+		.personal_info{
+			width:365px;
+			height:279px;
+			padding:90px 0 0 42px;
+		}
+	}
+}
+
+/**/
+/*    这里 是 设置 display none*/
+.h_left_one2{
+	width:365px;
+	height:47px;
+	position: relative;
+}
+.selDiv_one2{
+	width:365px;
+	min-height:47px;
+	position: absolute;
+	z-index:1;
+}
+.transparent2{
+	height:270px;
+	width:194px;
+	position: absolute;
+	left:-1px;
+	top:36px;
+	z-index: 99;
+	display: none;
+}
+.current_pro2,.current_city2{
+	float: left;
+	width:179px;
+	height:47px;
+	position: relative;
+	background:#fff;
+	margin-right:3px;
+	border-radius:4px;
+}
+#provs2,#cities2{
+	float:left;
+	width:165px;
+	height:47px;
+	font-size:20px;
+	text-align: left;
+	line-height: 47px;
+	color:#666;
+	padding-left:10px;
+	span{
+		display:block;
+		position: absolute;
+		right:0;
+		top:0;
+		width:20px;
+		height:20px;
+		
+		z-index:10;
+	}
+}
+#cities2{
+	width:150px;
+	padding-right: 14px;
+}
+
+.province_ul2,.city_ul2{
+	width:169px;
+	max-height:220px;
+	position:absolute;
+	background: #fff;
+	left:0;
+	top:47px;
+	border:1px solid #666;
+	border-top: 0;
+	overflow-y:auto;
+	display: none;
+	z-index: 101;
+	padding-left:10px;
+}
+.selDiv_one2 ul li{
+	height:30px;
+	font-size:20px;	
+	color:#666;
+	text-align: left;
+	line-height: 30px;
+}
+.selDiv_one2 ul li:hover{
+	background: #ccc;
+}
+
+/**/
+@mixin standardInfo{
+	width:365px;
+	height:46px;
+	margin:11px 0 11px 0;
+	position: relative;
+	input{
+		width:355px;
+		height:46px;
+		font-size:20px;
+		line-height:46px;
+		padding-left:10px;
+		color:#000;
+		outline:none;
+		border-radius:4px;
+		background:#fff;
+		border:none;
+	}
+}
+.nameInfo{
+	@include standardInfo;
+	.sexBtns{
+		width:104px;
+		height:28px;
+		border:1px solid #ccc;
+		border-radius:14px;
+		position: absolute;
+		right:7px;
+		top:9px;
+		overflow:hidden;
+		a{
+			float:left;
+			width:43px;
+			height:28px;
+			font-size:16px;
+			line-height:28px;
+			background:#fff;
+			color:#999;
+			padding-left:9px;
+		}
+		.activeSexBtn{
+			background:#f25546;
+			color:#fff;
+
+		}
+	}
+}
+.phoneInfo{
+	@include standardInfo;
+}
+.codeInfo{
+	@include standardInfo;
+	position: relative;
+	input{
+		width:240px;
+	}
+	a{
+		display: block;
+		width:98px;
+		height:46px;
+		background:url(../images/eventImages/VerCode.jpg) no-repeat;
+		background-size:100% 100%;
+		position: absolute;
+		right:0;
+		top:0;
+	}
+}
+
+.enlist{
+	display:block;
+	@include standardInfo;
+	background:#faff6f;
+	font-size:24px;
+	color:#fd5538;
+	text-align:center;
+	line-height:47px;
+	font-weight:900;
+}
+/**************************************/
+.banner_spe,.banner_ten,.banner_example,.banner_designer,.banner_designer2,
+.banner_happy,.banner_oneDoller,.banner_materials,
+.electrical,.furniture,.oneStop,.bigData{
+	width:1200px;
+	@include marginCenter;
+}
+/******************/
+.banner_spe{
+	height:778px;
+	background:url(../images/eventImages/b2.jpg) no-repeat;
+	position: relative;
+	a{
+		display:block;
+		width:146px;
+		height:146px;
+		border-radius:100%;
+		position: absolute;
+		left:535px;
+		bottom:26px;
+		img{
+			width:100%;
+			height:100%;
+		}
+	}
+}
+.banner_ten{
+	height:219px;
+	background:url(../images/eventImages/b4.jpg) no-repeat;
+}
+@mixin stanardA{
+	a{
+		display:block;
+		width:219px;
+		height:72px;
+		position: absolute;
+		right:194px;
+		bottom:61px;
+		img{
+			width:219px;
+			height:72px;
+		}
+	}
+}
+.banner_example{
+	div{
+		width:1200px;
+	}
+	.ex_one{
+		
+	}
+	.ex_two{
+		height:972px;
+		background:url(../images/eventImages/b5.jpg) no-repeat;
+	}
+	.ex_three{
+		height:956px;
+		background:url(../images/eventImages/b6.jpg) no-repeat;
+	}
+	.ex_four{
+		height:668px;
+		background:url(../images/eventImages/b7.jpg) no-repeat;
+		position: relative;
+		@include stanardA;
+	}
+
+}
+
+.banner_designer{
+	height:219px;
+	background:url(../images/eventImages/b9.jpg) no-repeat;
+}
+.banner_designer2{
+	height:572px;
+	background:url(../images/eventImages/b10.jpg) no-repeat;
+	position: relative;
+	@include stanardA;
+}
+.banner_happy{
+	height:219px;
+	background:url(../images/eventImages/b12.jpg) no-repeat;
+}
+.banner_oneDoller{
+	height:562px;
+	background:url(../images/eventImages/b13.jpg) no-repeat;
+	position: relative;
+	@include stanardA;
+}
+
+/*   轮播图的 变量*/
+@mixin sanmeCarousel{
+	height:350px;
+	background:url(../images/eventImages/b15.jpg) no-repeat;
+	position: relative;
+	.banner_carousel{
+		width:682px;
+		height:338px;
+		position: absolute;
+		left:7px;
+		top:6px;
+		background:#ccc;
+		overflow:hidden;
+		.banner_box{
+			width:2728px;
+			height:338px;
+			position: absolute;
+			left:0;top:0;
+			a{
+				float:left;
+				width:682px;
+				height:338px;
+				position: relative;
+				span{
+					display: block;
+					width:13px;
+					height:19px;
+					font-size:22px;
+					line-height:19px;
+					color:#fff;
+					position: absolute;
+					right:193px;
+					bottom:72px;
+				}
+				em{
+					display: block;
+					width:125px;
+					height:36px;
+					font-size:40px;
+					line-height:36px;
+					color:#fff;
+					position: absolute;
+					right:61px;
+					bottom:72px;
+				}
+			}
+			a:nth-child(1){
+				background:url(../images/eventImages/c1.jpg) no-repeat;
+			}
+			a:nth-child(2){
+				background:url(../images/eventImages/c2.jpg) no-repeat;
+			}
+			a:nth-child(3){
+				background:url(../images/eventImages/c3.jpg) no-repeat;
+			}
+			a:nth-child(4){
+				background:url(../images/eventImages/c1.jpg) no-repeat;
+			}
+		}
+		.banner_btns{
+			width:100%;
+			height:100%;
+			position: absolute;
+			left:0;
+			top:0;
+			display:none;
+			a{	
+				display: block;
+				width:37px;
+				height:75px;
+				position: absolute;
+				top:50%;
+				margin-top:-37px;
+
+			}
+			.leftBtn{
+				left:0;
+				background:url(../images/eventImages/arr-icon.png) no-repeat 0 0;
+			}
+			.rightBtn{
+				right:0;
+				background:url(../images/eventImages/arr-icon.png) no-repeat 0 -59px;
+			}
+		}
+	}
+	.banner_carousel:hover{
+		.banner_btns{
+			display:block;
+		}
+	}
+}
+/*第一个轮播图*/
+.banner_materials,.furniture{
+	@include sanmeCarousel;
+}
+
+/**/
+$fourRed:#db2348;
+$fourYellow :#fff600;
+.fourProducts{
+	width:1200px;
+	@include marginCenter;
+	margin-top:14px;
+	margin-bottom:30px;
+	div{
+		width:286px;
+		height:357px;
+		float:left;
+		margin-right:11px;
+		background:$fourRed;
+		padding:2px;
+		a{
+			display: block;
+			width:286px;
+			height:286px;
+			position: relative;
+			img{
+				width:286px;
+				height:286px;
+			}
+			span{
+				display:block;
+				width:100%;
+				height:34px;
+				position: absolute;
+				left:0;bottom:0;
+				background:#666;
+				opacity:0.5;
+			}
+			em{
+				display:block;
+				width:276px;
+				height:34px;
+				position: absolute;
+				left:0;bottom:0;
+				font-size:14px;
+				color:#fff;
+				line-height:34px;
+				z-index:2;
+				padding-left:10px;
+			}
+		}
+		.pro_price{
+			width:277px;
+			height:57px;
+			background:url(../images/eventImages/c5.jpg) no-repeat;
+			background-size:100% 100%;
+			padding-top:13px;
+			padding-left:9px;
+			p{
+				float:left;
+				width:139px;
+				height:58px;
+				font-weight:100;
+				span{
+					display:block;
+					width:100%;
+					height:18px;
+					font-size:18px;
+					line-height:18px;
+					color:$fourYellow;
+					margin-bottom:6px;
+				}
+				i{
+					padding-top:9px;
+					height:15px;
+					font-size:15px;
+					line-height:15px;
+					color:$fourYellow;
+				}
+				em{
+					height:23px;
+					font-size:26px;
+					line-height:23px;
+					color:$fourYellow;
+					font-weight:900;
+				}
+			}
+			a{
+				float:left;
+				width:86px;
+				height:31px;
+				font-size:15px;
+				line-height:31px;
+				color:#e31e3c;
+				margin:10px 0 0 45px;
+			}
+		}
+	}
+	div:last-child{
+		margin-right:0;
+	}
+	div:hover{
+		background:#fff600;
+		.pro_price{
+			background:$fourYellow;
+			p{
+				span{
+					color:$fourRed;
+				}
+				i{
+					color:$fourRed;
+				}
+				em{
+					color:$fourRed;
+				}
+			}
+			a{
+				color:$fourRed;
+			}
+		}
+
+	}
+}
+/* 第二个 轮播*/
+.electrical{
+	@include sanmeCarousel;
+	background:url(../images/eventImages/c9.jpg) no-repeat;
+	.banner_carousel{
+		left:513px;
+		top:6px;
+	}
+}
+.furniture{
+	background:url(../images/eventImages/d1.jpg) no-repeat;
+}
+
+.oneStop{
+	height:189px;
+	background:url(../images/eventImages/d9.jpg) no-repeat;
+}
+.bigData{
+	height:490px;
+	background:url(../images/eventImages/d10.jpg) no-repeat;
+}
+.stylist,.integration,.nearBy{
+	width:1200px;
+	@include marginCenter;
+}
+.stylist{
+	height:492px;
+	background:url(../images/eventImages/d11.jpg) no-repeat;
+}
+.integration{
+	height:526px;
+	background:url(../images/eventImages/d12.jpg) no-repeat;
+}
+.nearBy{
+	height:494px;
+	background:url(../images/eventImages/d13.jpg) no-repeat;
+}
+
+
+
